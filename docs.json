@@ -87,5 +87,13 @@
   "description": "The complete guiding principles of fitness. External barriers and internal barriers, and how to solve both.",
   "appearance": {
     "default": "dark"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Gloock"
+    },
+    "body": {
+      "family": "Outfit"
+    }
   }
 }
