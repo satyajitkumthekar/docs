@@ -40,8 +40,7 @@
                   "external/strength-training/principles",
                   "external/strength-training/choosing-your-exercises",
                   "external/strength-training/executing-a-set",
-                  "external/strength-training/training-frequency",
-                  "external/strength-training/progressing-over-time"
+                  "external/strength-training/training-frequency"
                 ]
               }
             ]
@@ -95,5 +94,12 @@
     "body": {
       "family": "Outfit"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/external/strength-training/progressing-over-time",
+      "destination": "/external/strength-training/choosing-your-exercises",
+      "permanent": true
+    }
+  ]
 }
