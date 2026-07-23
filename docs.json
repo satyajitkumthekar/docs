@@ -1,0 +1,91 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Superhuman Lab",
+  "colors": {
+    "primary": "#FFD60A",
+    "light": "#FFE55C",
+    "dark": "#E6BE00"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "pages": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      }
+    ],
+    "tabs": [
+      {
+        "tab": "Framework",
+        "groups": [
+          {
+            "group": "Introduction",
+            "icon": "compass",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "External barriers",
+            "icon": "dumbbell",
+            "pages": [
+              {
+                "group": "Strength training",
+                "icon": "dumbbell",
+                "pages": [
+                  "external/strength-training/principles",
+                  "external/strength-training/choosing-your-exercises",
+                  "external/strength-training/executing-a-set",
+                  "external/strength-training/training-frequency",
+                  "external/strength-training/progressing-over-time"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Internal barriers",
+            "icon": "brain",
+            "pages": [
+              "internal/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Blog",
+        "pages": [
+          "blog/how-to-generate-accountability"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "instagram": "https://www.instagram.com/satyajitkumthekar"
+    }
+  },
+  "description": "The complete guiding principles of fitness. External barriers and internal barriers, and how to solve both.",
+  "appearance": {
+    "default": "dark"
+  }
+}
