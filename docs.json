@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Superhuman Lab",
   "colors": {
-    "primary": "#FFD60A",
-    "light": "#FFE55C",
-    "dark": "#E6BE00"
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -94,14 +94,6 @@
   "description": "The complete guiding principles of fitness. External barriers and internal barriers, and how to solve both.",
   "appearance": {
     "default": "dark"
-  },
-  "fonts": {
-    "heading": {
-      "family": "Gloock"
-    },
-    "body": {
-      "family": "Outfit"
-    }
   },
   "redirects": [
     {
