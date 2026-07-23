@@ -71,8 +71,8 @@
     ]
   },
   "logo": {
-    "light": "/superhuman-light.png",
-    "dark": "/superhuman-dark.png"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "contextual": {
     "options": [
