@@ -18,9 +18,10 @@
         ]
       }
     ],
-    "tabs": [
+    "products": [
       {
-        "tab": "Framework",
+        "product": "Framework",
+        "icon": "book-open",
         "groups": [
           {
             "group": "Introduction",
@@ -55,9 +56,16 @@
         ]
       },
       {
-        "tab": "Blog",
-        "pages": [
-          "blog/how-to-generate-accountability"
+        "product": "Blog",
+        "icon": "newspaper",
+        "groups": [
+          {
+            "group": "Posts",
+            "icon": "pen-nib",
+            "pages": [
+              "blog/how-to-generate-accountability"
+            ]
+          }
         ]
       }
     ]
