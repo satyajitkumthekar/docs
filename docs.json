@@ -18,9 +18,10 @@
         ]
       }
     ],
-    "tabs": [
+    "products": [
       {
-        "tab": "Framework",
+        "product": "Framework",
+        "icon": "book-open",
         "groups": [
           {
             "group": "Introduction",
@@ -40,8 +41,7 @@
                   "external/strength-training/principles",
                   "external/strength-training/choosing-your-exercises",
                   "external/strength-training/executing-a-set",
-                  "external/strength-training/training-frequency",
-                  "external/strength-training/progressing-over-time"
+                  "external/strength-training/training-frequency"
                 ]
               }
             ]
@@ -56,9 +56,16 @@
         ]
       },
       {
-        "tab": "Blog",
-        "pages": [
-          "blog/how-to-generate-accountability"
+        "product": "Blog",
+        "icon": "newspaper",
+        "groups": [
+          {
+            "group": "Posts",
+            "icon": "pen-nib",
+            "pages": [
+              "blog/how-to-generate-accountability"
+            ]
+          }
         ]
       }
     ]
@@ -87,5 +94,20 @@
   "description": "The complete guiding principles of fitness. External barriers and internal barriers, and how to solve both.",
   "appearance": {
     "default": "dark"
-  }
+  },
+  "fonts": {
+    "heading": {
+      "family": "Gloock"
+    },
+    "body": {
+      "family": "Outfit"
+    }
+  },
+  "redirects": [
+    {
+      "source": "/external/strength-training/progressing-over-time",
+      "destination": "/external/strength-training/choosing-your-exercises",
+      "permanent": true
+    }
+  ]
 }
