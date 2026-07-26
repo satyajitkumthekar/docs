@@ -63,7 +63,8 @@
             "group": "Posts",
             "icon": "pen-nib",
             "pages": [
-              "blog/how-to-generate-accountability"
+              "blog/how-to-generate-accountability",
+              "blog/what-five-years-taught-me"
             ]
           }
         ]
