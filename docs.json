@@ -63,9 +63,10 @@
             "group": "Posts",
             "icon": "pen-nib",
             "pages": [
-              "blog/how-to-generate-accountability",
               "blog/what-five-years-taught-me",
-              "blog/the-paved-path"
+              "blog/the-paved-path",
+              "blog/making-the-walk-enjoyable",
+              "blog/how-to-generate-accountability"
             ]
           }
         ]
