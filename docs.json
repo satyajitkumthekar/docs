@@ -20,19 +20,14 @@
     ],
     "products": [
       {
-        "product": "Framework",
-        "icon": "book-open",
+        "product": "Archive",
+        "icon": "box-archive",
+        "hidden": true,
         "groups": [
-          {
-            "group": "Introduction",
-            "icon": "compass",
-            "pages": [
-              "index"
-            ]
-          },
           {
             "group": "External barriers",
             "icon": "dumbbell",
+            "hidden": true,
             "pages": [
               {
                 "group": "Strength training",
@@ -49,8 +44,19 @@
           {
             "group": "Internal barriers",
             "icon": "brain",
+            "hidden": true,
             "pages": [
               "internal/overview"
+            ]
+          },
+          {
+            "group": "Old posts",
+            "pages": [
+              "blog/what-five-years-taught-me",
+              "blog/the-paved-path",
+              "blog/making-the-walk-enjoyable",
+              "blog/how-to-generate-accountability",
+              "blog/first-principles-food"
             ]
           }
         ]
@@ -63,15 +69,12 @@
             "group": "Posts",
             "icon": "pen-nib",
             "pages": [
-              "blog/what-five-years-taught-me",
-              "blog/the-paved-path",
-              "blog/making-the-walk-enjoyable",
-              "blog/how-to-generate-accountability",
-              "blog/my-story",
-              "blog/first-principles-food"
+              "index",
+              "blog/my-story"
             ]
           }
-        ]
+        ],
+        "hidden": false
       }
     ]
   },
@@ -96,15 +99,78 @@
       "instagram": "https://www.instagram.com/satyajitkumthekar"
     }
   },
-  "description": "The complete guiding principles of fitness. External barriers and internal barriers, and how to solve both.",
+  "description": "The Superhuman KIT. How to train, how to eat, how to handle social plans and how to regulate yourself, all on one page.",
   "appearance": {
     "default": "dark"
   },
   "redirects": [
     {
+      "source": "/blog/what-five-years-taught-me",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/blog/the-paved-path",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/blog/making-the-walk-enjoyable",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/blog/how-to-generate-accountability",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/blog/first-principles-food",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/external/strength-training/principles",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/external/strength-training/choosing-your-exercises",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/external/strength-training/executing-a-set",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/external/strength-training/training-frequency",
+      "destination": "/",
+      "permanent": false
+    },
+    {
       "source": "/external/strength-training/progressing-over-time",
-      "destination": "/external/strength-training/choosing-your-exercises",
-      "permanent": true
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/internal/overview",
+      "destination": "/",
+      "permanent": false
     }
-  ]
+  ],
+  "navbar": {
+    "links": [
+      {
+        "href": "https://www.instagram.com/satyajitkumthekar",
+        "label": "Instagram"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Enrol in The Last Piece",
+      "href": "https://docs.google.com/document/d/1N7V3LxY74yB281UcNjnu8MXFvq2-9y1_RQCCw8-k2gU/edit?usp=sharing"
+    }
+  }
 }
